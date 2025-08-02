@@ -5,6 +5,7 @@
 
 # dotenv files
 .env
+ActionWrapper.sln
 
 # User-specific files
 *.rsuser
