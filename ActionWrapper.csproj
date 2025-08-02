@@ -11,7 +11,8 @@
     <Authors>Matheus Zauza Maschietto</Authors>
     <Company>Thronos</Company>
     <Description>It's just an ACTION WRAPPER</Description>
-    <PackageTags>action wrapper</PackageTags>
+    <PackageTags>action;wrapper</PackageTags>
     <RepositoryUrl>https://github.com/thronos-sec/ActionWrapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 </Project>

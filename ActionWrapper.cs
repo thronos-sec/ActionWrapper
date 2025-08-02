@@ -1,16 +1,11 @@
 ﻿namespace ActionWrapper;
 
-public class ActionWrapper
+public static class ActionWrapper
 {
-    private readonly Action _action;
+    private static Action? Action { get; set; }
 
-    public ActionWrapper(Action action)
+    public static void Execute()
     {
-        _action = action ?? throw new ArgumentNullException(nameof(action));
-    }
-
-    public void Execute()
-    {
-        _action();
+        Action?.Invoke();
     }
 }
