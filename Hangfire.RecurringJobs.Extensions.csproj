@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Hangfire.RecurringJobs.Extensions</PackageId>
+    <Version>1.1.2</Version>
+    <Authors>Matheus Zauza Maschietto</Authors>
+    <Company>Thronos</Company>
+    <Description>
+      This package implements an hangfire recurringjob extension that allow you to execute dynamic code in differents projects. 
+      Imagine you throw an recurringjob at application X, and you want that application Y execute that code recurringjob. Hangfire wont let you do it, until now.
+    </Description>
+    <PackageTags>action;wrapper</PackageTags>
+    <RepositoryUrl>https://github.com/thronos-sec/hangfire-extensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.20" />
+  </ItemGroup>
+</Project>
