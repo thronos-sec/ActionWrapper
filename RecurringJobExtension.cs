@@ -1,5 +1,4 @@
 ﻿using System.Text.Json;
-using Hangfire;
 
 namespace Hangfire.RecurringJobs.Extensions;
 
