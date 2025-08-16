@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup>
-    <PackageId>Hangfire.RecurringJobs.Extensions</PackageId>
-    <Version>1.0.0</Version>
+    <PackageId>Thronos.HangfireRecurringJobsExtensions</PackageId>
+    <Version>1.0.1</Version>
     <Authors>Matheus Zauza Maschietto</Authors>
     <Company>Thronos</Company>
     <Description>
